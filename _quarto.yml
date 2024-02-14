@@ -3,7 +3,7 @@ project:
   output-dir: "."
 
 website:
-  title: "YOUR NAME"
+  title: "tyler thibert"
   navbar:
     pinned: true
     left:
@@ -13,7 +13,7 @@ website:
         href: blog-listing.qmd
             
   page-footer: 
-    center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2023"
+    center: "powered with github and quarto<br>© tyler thibert, 2024"
 
 format:
   html:
