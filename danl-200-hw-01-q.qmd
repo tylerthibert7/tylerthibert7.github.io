@@ -1,0 +1,123 @@
+---
+title: Homework 1 - Part 3
+subtitle: R Basics
+date: last-modified
+
+author: YOUR_NAME
+
+execute: 
+  eval: true
+  echo: true
+  warning: false
+  message: false
+
+from: markdown+emoji
+---
+
+```{r setup}
+library(tidyverse)
+library(skimr)
+```
+
+# Direction
+- Please address all questions in **Homework Assignment 1: Part 3** in this Quarto document.
+  - Do not forget providing your name in Line 6 in the YAML header.
+
+- Save this Quarto document with the name below:
+  - `danl-200-hw1-LASTNAME-FIRSTNAME.qmd`\
+  ( e.g., `danl-200-hw1-choe-byeonghak.qmd`)
+
+- Please submit your Quarto document for Homework Assignment 1: Part 3 to the Brightspace.
+
+- The due is February 20, 2024, 2:00 P.M.
+
+- Please send Byeong-Hak an email (bchoe@geneseo.edu) if you have any questions.
+
+
+<br>
+
+# Part 3. R Basics
+
+## Question 0.
+Provide your GitHub username.
+
+*Answer*:
+
+
+
+<br><br>
+
+
+## Question 1.
+base-R provides the R object `state.name`. Write an R code to assign `state.name` to a variable, `US_states`.
+
+*Answer*:
+```{r}
+
+```
+
+<br><br>
+
+## Question 2.
+The `temp_F` vector contains the average high temperatures in January for the following cities: Seoul, Lagos, Paris, Rio de Janeiro, San Juan, and Rochester.
+
+```{r}
+temp_F <- c(35, 88, 42, 84, 81, 30)
+```
+
+Create a new vector named `temp_C` that stores the converted Celsius temperatures. Below is the conversion formula:
+
+$$
+C = \frac{5}{9}\times(F - 32)
+$$
+
+*Answer*:
+```{r}
+
+```
+
+<br><br>
+
+
+## Question 3.
+- Write an R code to calculate the standard deviation (SD) of the integer vector `x` below manually. That is to calculate the SD without using the `sd()` function.
+
+```{r}
+x <- 1:25
+```
+
+- Also, write an R code to test whether the standard deviation you calculate manually above is equal to `sd(x)`.
+
+
+
+*Answer*:
+```{r}
+
+
+```
+
+<br><br>
+
+
+## Question 4.
+- Write an R code to read the CSV file, `https://bcdanl.github.io/data/mlb_teams.csv` using the `tidyverse`'s `read_csv()` function, and assign it to `MLB_teams`.
+
+*Answer*:
+```{r}
+
+```
+
+<br><br>
+
+
+## Question 5.
+Write an R code to provide summary statistics---mean, standard deviation, minimum, first quartile, median, third quartile, and maximum---for variables in the `MLB_teams` data.frame.
+
+*Answer*:
+```{r}
+
+```
+
+<br><br><br>
+
+
